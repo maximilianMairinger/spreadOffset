@@ -34,7 +34,7 @@ export default function(keyframes: UnpolishedKeyframes): PolishedKeyframes {
         }
         last = l
       }
-      else throw "Offsets must be given in incrementing sequence, spanning between 0 - 1"
+      else throw new Error("Offsets must be given in incrementing sequence, spanning between 0 - 1")
     }
   }
 
