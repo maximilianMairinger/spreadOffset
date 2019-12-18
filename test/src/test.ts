@@ -1,4 +1,12 @@
-import spreadOffset from "spread-offset"
-const testElem = document.querySelector("#test")
+import spreadOffset from "./../../app/src/spreadOffset"
+//const testElem = document.querySelector("#test")
 
-spreadOffset()
+let r = spreadOffset([
+  {value: "val"},
+  {value: "val"},
+  {value: "val", offset: .5},
+  {value: "val"}
+])
+
+console.log(r);
+
