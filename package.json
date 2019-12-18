@@ -1,6 +1,6 @@
 {
   "name": "spread-offset",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Spread missing offset properties to keyframes with interpolated values",
   "main": "app/dist/spreadOffset.js",
   "types": "app/dist/spreadOffset.d.ts",
